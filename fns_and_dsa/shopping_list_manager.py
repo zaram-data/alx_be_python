@@ -4,10 +4,8 @@
 shopping_list = []
 
 # Function to display the menu
-
-
-
 def display_menu():
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. View List")
     print("3. Remove Item")
@@ -17,7 +15,7 @@ def display_menu():
 while True:
     display_menu()
     
-    # Get user's choice and ensure it's a number
+    # Get user's choice as a number
     try:
         choice = int(input("Enter your choice: "))
     except ValueError:
