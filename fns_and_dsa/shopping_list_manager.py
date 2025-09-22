@@ -6,6 +6,7 @@ shopping_list = []
 # Function to display the menu
 
 
+
 def display_menu():
     print("1. Add Item")
     print("2. View List")
